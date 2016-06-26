@@ -1,0 +1,14 @@
+Testsuite: com.taobao.zhujiadun.test.MainTest
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec
+
+Testcase: testMain1 took 0.002 sec
+Testcase: testMainError took 0.002 sec
+	FAILED
+expected:<zhujiadun[]> but was:<zhujiadun[1]>
+junit.framework.ComparisonFailure: expected:<zhujiadun[]> but was:<zhujiadun[1]>
+	at com.taobao.zhujiadun.test.MainTest.testMainError(Unknown Source)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:453)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:140)
+
+Testcase: testMain took 0 sec
